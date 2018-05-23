@@ -765,9 +765,6 @@
 		57FFAB84199C110D00F655CF /* MPCollectionViewAdPlacerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCollectionViewAdPlacerView.h; sourceTree = "<group>"; };
 		57FFAB85199C110D00F655CF /* MPCollectionViewAdPlacerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPCollectionViewAdPlacerView.m; sourceTree = "<group>"; };
 		7022A54F1C179C0D001ADEEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7022A5521C17A3E4001ADEEB /* KPKiipInterstitialCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPKiipInterstitialCustomEvent.m; sourceTree = "<group>"; };
-		7071A61B1C22139D00269551 /* KiipSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KiipSDK.framework; sourceTree = "<group>"; };
-		7071A61C1C22139D00269551 /* KiipSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KiipSDKResources.bundle; sourceTree = "<group>"; };
 		7ED6F1361AA148E4000B19F1 /* MPLogEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPLogEvent.m; sourceTree = "<group>"; };
 		873B38291BA905D500D57423 /* MPVASTTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPVASTTracking.h; sourceTree = "<group>"; };
 		873B382A1BA905D500D57423 /* MPVASTTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPVASTTracking.m; sourceTree = "<group>"; };
@@ -1794,9 +1791,6 @@
 			children = (
 				7022A54F1C179C0D001ADEEB /* README.md */,
 				7ED6F1361AA148E4000B19F1 /* MPLogEvent.m */,
-				7022A5521C17A3E4001ADEEB /* KPKiipInterstitialCustomEvent.m */,
-				7071A61B1C22139D00269551 /* KiipSDK.framework */,
-				7071A61C1C22139D00269551 /* KiipSDKResources.bundle */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
