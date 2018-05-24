@@ -7,15 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h> 
 
 extern NSString * const KPErrorDomain;
 extern NSString * const KPVersion;
 
-
 extern NSString * const kKPCapabilities_Real;
 extern NSString * const kKPCapabilities_Virtual;
 extern NSString * const kKPCapabilities_Video;
+extern NSString * const kKPCapabilities_AR;
 
+typedef enum AgeGroup : NSUInteger {
+    kAgeGroup13to17,
+    KAgeGroup18to34,
+    kAgeGroup35to49,
+    kAgeGroup50
+} AgeGroup;
 
 @protocol KiipDelegate;
 @class KPNotificationView;
@@ -76,6 +83,12 @@ extern NSString * const kKPCapabilities_Video;
 @property (strong, nonatomic) NSDate *birthday;
 
 /**
+ The user's agegroup from pre-defined enums. 
+ Setting this will help targe rewards to your users more effectively.
+ */
+@property (assign, nonatomic) AgeGroup agegroup;
+
+/**
  The the string Kiip uses to uniquely identify devices.
  */
 @property (strong, nonatomic, readonly) NSString *deviceIdentifier;
@@ -93,7 +106,7 @@ extern NSString * const kKPCapabilities_Video;
 
  @discussion The delegate must adopt the KiipDelegate formal protocol.
  */
-@property (assign, nonatomic, setter = setDelegate:) id<KiipDelegate> delegate;
+@property (weak, nonatomic, setter = setDelegate:) id<KiipDelegate> delegate;
 
 
 /** @name Setting and Getting the Kiip instance */

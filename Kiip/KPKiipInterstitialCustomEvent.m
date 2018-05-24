@@ -64,6 +64,10 @@ static KPKiipInterstitialCustomEvent *sInstance = nil;
             [[Kiip sharedInstance] setBirthday:birthDate];
         }
         
+        if ([info objectForKey:@"ageGroup"]) {
+            [[Kiip sharedInstance] setAgegroup:[[info objectForKey:@"ageGroup"] intValue]];
+        }
+        
         if ([info objectForKey:@"testMode"]) {
             [[Kiip sharedInstance] setTestMode:[[info objectForKey:@"testMode"] boolValue]];
         }
