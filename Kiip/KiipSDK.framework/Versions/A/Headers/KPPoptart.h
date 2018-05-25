@@ -10,6 +10,7 @@
 
 #import "KPNotification.h"
 #import "KPModal.h"
+#import "KPNativeRewardView.h"
 
 @protocol KPPoptartDelegate;
 
@@ -41,7 +42,7 @@
 /**
  The delegate of the Poptart object.
  */
-@property (assign, nonatomic) id<KPPoptartDelegate> delegate;
+@property (weak, nonatomic) id<KPPoptartDelegate> delegate;
 
 
 /** @name Showing the Poptart */
@@ -51,6 +52,10 @@
  */
 - (void) show;
 
+/**
+ Show the Poptart in native reward view.
+ */
+- (void) showNativeRewardView:(KPNativeRewardView *)rewardView;
 @end
 
 
