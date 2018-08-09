@@ -118,9 +118,12 @@
 		46DA87B1185010DD00F34858 /* MPAdEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DA87AF185010DD00F34858 /* MPAdEntryViewController.m */; };
 		46DA87B4185010DD00F34858 /* MPAdEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46DA87B0185010DD00F34858 /* MPAdEntryViewController.xib */; };
 		46F883C917FB7AC5004CE563 /* MPLeaderboardBannerAdDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F883C817FB7AC5004CE563 /* MPLeaderboardBannerAdDetailViewController.m */; };
+		4A44ED3621130D1A00D0070E /* KPKiipNativeCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A44ED3521130D1A00D0070E /* KPKiipNativeCustomEvent.m */; };
 		4A62566A19A7B45900ED18C8 /* MPNativeAdPlacerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C1DB71980722600B6DB33 /* MPNativeAdPlacerTableViewController.m */; };
 		4A6FC1F718C561B3007A1197 /* MPNativeAdDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FC1F518C561B3007A1197 /* MPNativeAdDetailViewController.m */; };
 		4A6FC1F918C561B3007A1197 /* MPNativeAdDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A6FC1F618C561B3007A1197 /* MPNativeAdDetailViewController.xib */; };
+		4A88DFA42118686600204659 /* KPNativeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A88DFA32118686600204659 /* KPNativeAdapter.m */; };
+		4A88DFAB21186C2B00204659 /* KPKiipNativeRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A88DFAA21186C2B00204659 /* KPKiipNativeRender.m */; };
 		4A8DD10118C90542005E9389 /* MPTableViewAdPlacerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8DD10018C90542005E9389 /* MPTableViewAdPlacerView.m */; };
 		4A8DD10418C90620005E9389 /* MPNativeAdTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8DD10318C90620005E9389 /* MPNativeAdTableHeaderView.m */; };
 		4A8DD10618C90636005E9389 /* MPNativeAdTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8DD10518C90636005E9389 /* MPNativeAdTableHeaderView.xib */; };
@@ -499,9 +502,15 @@
 		46F883C817FB7AC5004CE563 /* MPLeaderboardBannerAdDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPLeaderboardBannerAdDetailViewController.m; sourceTree = "<group>"; };
 		4A1C1DB61980722600B6DB33 /* MPNativeAdPlacerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNativeAdPlacerTableViewController.h; sourceTree = "<group>"; };
 		4A1C1DB71980722600B6DB33 /* MPNativeAdPlacerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNativeAdPlacerTableViewController.m; sourceTree = "<group>"; };
+		4A44ED3421130D1A00D0070E /* KPKiipNativeCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPKiipNativeCustomEvent.h; sourceTree = "<group>"; };
+		4A44ED3521130D1A00D0070E /* KPKiipNativeCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPKiipNativeCustomEvent.m; sourceTree = "<group>"; };
 		4A6FC1F418C561B3007A1197 /* MPNativeAdDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNativeAdDetailViewController.h; sourceTree = "<group>"; };
 		4A6FC1F518C561B3007A1197 /* MPNativeAdDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNativeAdDetailViewController.m; sourceTree = "<group>"; };
 		4A6FC1F618C561B3007A1197 /* MPNativeAdDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPNativeAdDetailViewController.xib; sourceTree = "<group>"; };
+		4A88DFA22118686600204659 /* KPNativeAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPNativeAdapter.h; sourceTree = "<group>"; };
+		4A88DFA32118686600204659 /* KPNativeAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPNativeAdapter.m; sourceTree = "<group>"; };
+		4A88DFA921186C2B00204659 /* KPKiipNativeRender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPKiipNativeRender.h; sourceTree = "<group>"; };
+		4A88DFAA21186C2B00204659 /* KPKiipNativeRender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPKiipNativeRender.m; sourceTree = "<group>"; };
 		4A8DD0FF18C90542005E9389 /* MPTableViewAdPlacerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTableViewAdPlacerView.h; sourceTree = "<group>"; };
 		4A8DD10018C90542005E9389 /* MPTableViewAdPlacerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTableViewAdPlacerView.m; sourceTree = "<group>"; };
 		4A8DD10218C90620005E9389 /* MPNativeAdTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNativeAdTableHeaderView.h; sourceTree = "<group>"; };
@@ -1817,6 +1826,12 @@
 			isa = PBXGroup;
 			children = (
 				C7BC22FE20B6271A00ECF4E9 /* KPKiipInterstitialCustomEvent.m */,
+				4A88DFA22118686600204659 /* KPNativeAdapter.h */,
+				4A88DFA32118686600204659 /* KPNativeAdapter.m */,
+				4A88DFA921186C2B00204659 /* KPKiipNativeRender.h */,
+				4A88DFAA21186C2B00204659 /* KPKiipNativeRender.m */,
+				4A44ED3421130D1A00D0070E /* KPKiipNativeCustomEvent.h */,
+				4A44ED3521130D1A00D0070E /* KPKiipNativeCustomEvent.m */,
 				C7BC22FF20B6271A00ECF4E9 /* KiipSDKResources.bundle */,
 				C7BC230020B6271A00ECF4E9 /* KiipSDK.framework */,
 				C7BC230120B6271A00ECF4E9 /* XIDLibrary.framework */,
@@ -2179,6 +2194,7 @@
 				57240A571A688C05009271B8 /* MPSessionTracker.m in Sources */,
 				57240A6F1A688C05009271B8 /* MPConstants.m in Sources */,
 				57AC6A041BB221130053C556 /* MOPUBActivityIndicatorView.m in Sources */,
+				4A88DFAB21186C2B00204659 /* KPKiipNativeRender.m in Sources */,
 				7022A5501C179C0D001ADEEB /* README.md in Sources */,
 				A714FE751B699B1B000EAEC4 /* MPVASTStringUtilities.m in Sources */,
 				B25486BC1EC91F8C0005A596 /* MOPUBExperimentProvider.m in Sources */,
@@ -2239,6 +2255,7 @@
 				575F4A981B9796DD001352D7 /* MPNativeAdRendererConfiguration.m in Sources */,
 				A7A422A71B603CC000024A3A /* MPVASTModel.m in Sources */,
 				A7A422831B5F224400024A3A /* MPVASTLinearAd.m in Sources */,
+				4A88DFA42118686600204659 /* KPNativeAdapter.m in Sources */,
 				57240A7B1A688C05009271B8 /* MPAdPlacerInvocation.m in Sources */,
 				57C784D61BCC4C6C00E4BB7D /* MPNativeVideoTableViewAdPlacerView.m in Sources */,
 				57FFAB86199C110D00F655CF /* MPCollectionViewAdPlacerView.m in Sources */,
@@ -2290,6 +2307,7 @@
 				57240A121A688C05009271B8 /* MRConstants.m in Sources */,
 				572409A31A688C05009271B8 /* MPBannerCustomEventAdapter.m in Sources */,
 				57240AAE1A688C05009271B8 /* MPNativeAdError.m in Sources */,
+				4A44ED3621130D1A00D0070E /* KPKiipNativeCustomEvent.m in Sources */,
 				571EF4281B7194D60035C9BB /* MPStaticNativeAdView.m in Sources */,
 				572409BE1A688C05009271B8 /* MPAdServerCommunicator.m in Sources */,
 				577A1FA219AE7EA6006DA28B /* MPNativeAdPageView.m in Sources */,
