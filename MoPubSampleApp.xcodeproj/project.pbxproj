@@ -126,6 +126,7 @@
 		4A8DD10618C90636005E9389 /* MPNativeAdTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8DD10518C90636005E9389 /* MPNativeAdTableHeaderView.xib */; };
 		4ADE5FCE1B4FE836004C3673 /* MPRewardedVideoAdDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE5FCB1B4FE836004C3673 /* MPRewardedVideoAdDetailViewController.xib */; };
 		4ADE5FD01B4FE836004C3673 /* MPRewardedVideoAdDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE5FCD1B4FE836004C3673 /* MPRewardedVideoAdDetailViewController.m */; };
+		4AE08344211CCDA300C8F9D6 /* KPKiipBannerCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE08343211CCDA300C8F9D6 /* KPKiipBannerCustomEvent.m */; };
 		4AF797D519A7F9E8007CE34D /* MPNativeAdPlacerCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E060FE6B1994000C00F4F33C /* MPNativeAdPlacerCollectionViewController.m */; };
 		571EF4281B7194D60035C9BB /* MPStaticNativeAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 571EF4271B7194D60035C9BB /* MPStaticNativeAdView.m */; };
 		572409A01A688C05009271B8 /* MPBannerAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 572408BC1A688C05009271B8 /* MPBannerAdManager.m */; };
@@ -513,6 +514,8 @@
 		4ADE5FCB1B4FE836004C3673 /* MPRewardedVideoAdDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPRewardedVideoAdDetailViewController.xib; sourceTree = "<group>"; };
 		4ADE5FCC1B4FE836004C3673 /* MPRewardedVideoAdDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPRewardedVideoAdDetailViewController.h; sourceTree = "<group>"; };
 		4ADE5FCD1B4FE836004C3673 /* MPRewardedVideoAdDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPRewardedVideoAdDetailViewController.m; sourceTree = "<group>"; };
+		4AE08342211CCDA300C8F9D6 /* KPKiipBannerCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPKiipBannerCustomEvent.h; sourceTree = "<group>"; };
+		4AE08343211CCDA300C8F9D6 /* KPKiipBannerCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPKiipBannerCustomEvent.m; sourceTree = "<group>"; };
 		571EF4261B7194D60035C9BB /* MPStaticNativeAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPStaticNativeAdView.h; sourceTree = "<group>"; };
 		571EF4271B7194D60035C9BB /* MPStaticNativeAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPStaticNativeAdView.m; sourceTree = "<group>"; };
 		572408BB1A688C05009271B8 /* MPBannerAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPBannerAdManager.h; sourceTree = "<group>"; };
@@ -1824,6 +1827,8 @@
 				C7BC230320B6271A00ECF4E9 /* KIIPMoatMobileAppKit.framework */,
 				C7BC230420B6271A00ECF4E9 /* KPKiipInterstitialCustomEvent.h */,
 				C7BC230520B6271A00ECF4E9 /* SDK */,
+				4AE08342211CCDA300C8F9D6 /* KPKiipBannerCustomEvent.h */,
+				4AE08343211CCDA300C8F9D6 /* KPKiipBannerCustomEvent.m */,
 			);
 			path = Kiip;
 			sourceTree = "<group>";
@@ -2251,6 +2256,7 @@
 				57240A751A688C05009271B8 /* MPInterstitialCustomEvent.m in Sources */,
 				4A6FC1F718C561B3007A1197 /* MPNativeAdDetailViewController.m in Sources */,
 				B28725D71B9F917F00C0D61B /* UIButton+MPAdditions.m in Sources */,
+				4AE08344211CCDA300C8F9D6 /* KPKiipBannerCustomEvent.m in Sources */,
 				572409DC1A688C05009271B8 /* MPHTMLBannerCustomEvent.m in Sources */,
 				5755D6351AA8F62900DC32EA /* MPRewardedVideoReward.m in Sources */,
 				469A15F01AC1F0BA00D6F0EF /* MPSampleAppLogReader.m in Sources */,
