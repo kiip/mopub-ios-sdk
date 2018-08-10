@@ -15,6 +15,6 @@
 #import "MoPub.h"
 #endif
 
-@interface KPKiipBannerCustomEvent : MPBannerCustomEvent
+@interface KPKiipMrectBannerCustomEvent : MPBannerCustomEvent
 
 @end
