@@ -17,4 +17,12 @@
 
 @interface KPKiipMrectBannerCustomEvent : MPBannerCustomEvent
 
+/**
+ Initializes a Kiip object with the specified values.
+ 
+ @param appKey The Application's key.
+ @param appSecret The Application's secret.
+ */
++ (void)setAppKey:(NSString *)appKey andSecret:(NSString *)appSecret;
+
 @end

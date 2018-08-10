@@ -46,7 +46,7 @@ Follow the integration documentation provided by MoPub on Integrating MoPub iOS 
  
  4. Login to https://app.mopub.com, and click on the "Apps" category and create New App or select existing apps which you would like to add the Kiip engine.
  
- 5. Click "New ad unit" and you can Name it as "Kiip Reward Unit" and choose a Device type and Format it as "Medium (300 x 250)" and set Layout to your preference and click save.
+ 5. Click "New ad unit" and you can Name it as "Kiip Reward Unit" and choose a Device type and Format it as "Medium (300 x 250)" and set refresh interval to 0 second and click save.
  
  6. It will open up a "Code integration" page and copy the Ad unit ID that MoPub has provided to you.
  

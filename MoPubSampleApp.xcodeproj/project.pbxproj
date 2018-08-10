@@ -1825,8 +1825,8 @@
 				C7BC230220B6271A00ECF4E9 /* README.md */,
 				C7BC230320B6271A00ECF4E9 /* KIIPMoatMobileAppKit.framework */,
 				C7BC230520B6271A00ECF4E9 /* SDK */,
-				C7BC22FE20B6271A00ECF4E9 /* KPKiipInterstitialCustomEvent.m */,
 				C7BC230420B6271A00ECF4E9 /* KPKiipInterstitialCustomEvent.h */,
+				C7BC22FE20B6271A00ECF4E9 /* KPKiipInterstitialCustomEvent.m */,
 				4AE08342211CCDA300C8F9D6 /* KPKiipMrectBannerCustomEvent.h */,
 				4AE08343211CCDA300C8F9D6 /* KPKiipMrectBannerCustomEvent.m */,
 			);
