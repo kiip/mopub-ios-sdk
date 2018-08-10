@@ -22,7 +22,7 @@
     self = [super init];
     if (self)
     {
-        self.nativeRewardView = [[KPNativeRewardView alloc] initWithFrame:CGRectZero];
+        self.nativeRewardView = [[KPNativeRewardView alloc] initWithCGpoint:CGPointMake(0,0) setViewType:MEDIUM_RECTANGLE];
     }
     return self;
 }
@@ -94,7 +94,6 @@ static KPKiipBannerCustomEvent *sInstance = nil;
                 if (poptart.modal) {
                     poptart.modal.delegate = self;
                 }
-                self.nativeRewardView.frame = CGRectMake(0, 0, 300, 250);
                 [self.delegate bannerCustomEvent:self didLoadAd:self.nativeRewardView];
                 [poptart showNativeRewardView:self.nativeRewardView];
                 
